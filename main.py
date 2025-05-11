@@ -1,3 +1,46 @@
+# from manejo_de_listas.agregar_elemento import agregar
+# from manejo_de_listas.insertar_elemento import insertar
+# from manejo_de_listas.obtener_indice import obtener_indice
+# from manejo_de_listas.eliminar_elemento import eliminar
+# from manejo_de_listas.eliminar_instancia import eliminar_primer_instancia
+# from manejo_de_listas.eliminar_todas_instancias import eliminar_todos
+# from manejo_de_listas.vaciar_lista import vaciar_lista
+
+# # Lista base para pruebas
+# mi_lista = [1, 2, 3, 2, 4]
+# print("Lista original:", mi_lista)
+
+# # 1. Agregar un elemento
+# agregar(mi_lista, 5)
+# print("Después de agregar 5:", mi_lista)
+
+# # 2. Insertar un elemento en la posición 2
+# mi_lista = insertar(mi_lista, 99, 2)
+# print("Después de insertar 99 en el índice 2:", mi_lista)
+
+# # 3. Obtener el índice del elemento 2
+# indice = obtener_indice(mi_lista, 2)
+# print("Índice de la primera ocurrencia de 2:", indice)
+
+# # 4. Eliminar el último elemento
+# ultimo = eliminar(mi_lista)
+# print("Elemento eliminado (último):", ultimo)
+# print("Después de eliminar el último elemento:", mi_lista)
+
+# # 5. Eliminar la primera instancia del elemento 2
+# eliminado = eliminar_primer_instancia(mi_lista, 2)
+# print("Primera instancia eliminada de 2:", eliminado)
+# print("Después de eliminar la primera instancia de 2:", mi_lista)
+
+# # 6. Eliminar todas las instancias del número 2
+# eliminar_todos(mi_lista, 2)
+# print("Después de eliminar todas las instancias de 2:", mi_lista)
+
+# # 7. Vaciar la lista
+# vaciar_lista(mi_lista)
+# print("Después de vaciar la lista:", mi_lista)
+
+
 from manejo_de_listas.agregar_elemento import agregar
 from manejo_de_listas.insertar_elemento import insertar
 from manejo_de_listas.obtener_indice import obtener_indice
